@@ -11,7 +11,7 @@
       ],
       description:
         "Swoley moley ensures all users have the information they need to train safely and train effectively.",
-      imgUrl: "",
+      imgUrl: "assets/selection.png",
     },
     {
       featureList: [
@@ -22,7 +22,7 @@
       ],
       description:
         "Build your streaks and see your progress with our amazing tracking and analytics features.",
-      imgUrl: "",
+      imgUrl: "assets/training.png",
     },
     {
       featureList: [
@@ -33,7 +33,7 @@
       ],
       description:
         "Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.",
-      imgUrl: "",
+      imgUrl: "assets/goal.png",
     },
   ];
 </script>
@@ -64,7 +64,7 @@
           {:else if index === 1}
             Lay the foundations for <span class="text-indigo-400 font-medium"
               >routine</span
-            >and consistency
+            > and consistency
           {:else}
             Workouts specific to your <span class="text-indigo-400 font-medium"
               >environment</span
