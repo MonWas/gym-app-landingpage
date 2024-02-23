@@ -4,11 +4,11 @@
 </script>
 
 <div
-  class="grid grid-cols-1 md:grid-cols2 gap-14 md:gap-14 lg:gap-20 relative text-base"
+  class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 relative text-base"
 >
   <div
     class={"flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 " +
-      (index % 2 === 1 ? "md:order-2" : " ")}
+      (index % 2 === 1 ? " md:order-2" : " ")}
   >
     <h4
       class="text-2xl sm:text-3xl md:text-4xl max-w-[1000px] w-full font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-slate-900"
@@ -34,9 +34,9 @@
       </button>
     </div>
   </div>
-  <div class="flex flex-col dropShadow overflow-hidden rounded-b-lg">
+  <div class={"flex flex-col dropShadow overflow-hidden rounded-b-lg "}>
     <div
-      class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex-items-center gap-2"
+      class="rounded-t-xl h-8 sm:h-10 bg-white opacity-60 px-3 flex items-center gap-2"
     >
       {#each [1, 2, 3] as i}
         <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-indigo-300" />
