@@ -22,7 +22,7 @@
           <div
             class="grid place-items-center px-1.5 text-xs sm:text-sm aspect-square rounded-full border-[1.5px] bg-white border-solid border-green-300"
           >
-            <i class="fa-solid fa-bold text-green-400"></i>
+            <i class="fa-solid fa-bolt text-green-400"></i>
           </div>
           <p>{listItem}</p>
         </div>
